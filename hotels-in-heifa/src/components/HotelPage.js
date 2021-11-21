@@ -10,6 +10,9 @@ export class HotelPage extends Component {
   render() {
     return (
       <div className='hotel-page'>
+        <Link className='home-btn' to={'/'}>
+          {<i className='fas fa-home'></i>}
+        </Link>
         <h1>{this.props.name}</h1>
         <img alt='hotel-img' src={this.props.img} />
         <span>
