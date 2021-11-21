@@ -9,7 +9,7 @@ export class CallNowButton extends Component {
   render() {
     return (
       <a href={`tel:+972${this.props.phone}`} className='call-now'>
-        <button>
+        <button className='call-btn'>
           {' '}
           <i className='fas fa-phone-alt'></i>
         </button>
