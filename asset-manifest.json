@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Hotels-in-Heifa/static/css/main.b6a7b990.chunk.css",
-    "main.js": "/Hotels-in-Heifa/static/js/main.05b1c9a8.chunk.js",
-    "main.js.map": "/Hotels-in-Heifa/static/js/main.05b1c9a8.chunk.js.map",
+    "main.js": "/Hotels-in-Heifa/static/js/main.8c7e285d.chunk.js",
+    "main.js.map": "/Hotels-in-Heifa/static/js/main.8c7e285d.chunk.js.map",
     "runtime-main.js": "/Hotels-in-Heifa/static/js/runtime-main.2c94aa6d.js",
     "runtime-main.js.map": "/Hotels-in-Heifa/static/js/runtime-main.2c94aa6d.js.map",
     "static/js/2.be7c825d.chunk.js": "/Hotels-in-Heifa/static/js/2.be7c825d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2c94aa6d.js",
     "static/js/2.be7c825d.chunk.js",
     "static/css/main.b6a7b990.chunk.css",
-    "static/js/main.05b1c9a8.chunk.js"
+    "static/js/main.8c7e285d.chunk.js"
   ]
 }
