@@ -7,6 +7,19 @@ import { hotelData } from '../data/hotels';
 import ThemeContext, { themes } from '../helpers/theme-context';
 
 export class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.toggleTheme = () => {
+      this.setState((state) => ({
+        theme: state.theme === themes.dark ? themes.light : themes.dark,
+      }));
+    };
+    this.state = {
+      theme: themes.light,
+      toggleTheme: this.toggleTheme,
+    };
+  }
   render() {
     return (
       <ThemeContext.Provider value={this.state.theme}>
