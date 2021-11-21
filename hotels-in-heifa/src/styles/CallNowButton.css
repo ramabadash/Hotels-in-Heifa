@@ -4,7 +4,7 @@ button {
   left: 20px;
   bottom: 20px;
   background: #0a660f;
-  position: fixed;
+  position: relative;
   text-align: center;
   font-size: 1em;
   color: #ffffff;

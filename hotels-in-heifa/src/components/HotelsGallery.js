@@ -9,7 +9,7 @@ export class HotelsGallery extends Component {
   render() {
     return (
       <div>
-        <h1>בחר את המלון האהוב עלייך</h1>
+        <h1> בחר את המלון האהוב עלייך בחיפה</h1>
         <ul className='hotels-list'>
           {hotelData.map((hotel) => (
             <Link key={hotel.name} to={'/' + kebabCase(hotel.name)}>

@@ -1,3 +1,12 @@
+.home-btn {
+  font-size: 1.5em;
+  color: brown;
+}
+.home-btn:hover {
+  color: azure;
+  cursor: pointer;
+}
+
 .hotel-page {
   display: flex;
   flex-direction: column;
@@ -13,6 +22,11 @@
 }
 
 .hotel-page span {
-  margin-top: 2em;
-  font-size: 1.5em;
+  margin-top: 0.5em;
+  font-size: 1em;
+  text-align: right;
+}
+
+.about {
+  font-size: 0.25em;
 }
