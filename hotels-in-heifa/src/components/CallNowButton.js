@@ -8,13 +8,14 @@ export class CallNowButton extends Component {
   }
   render() {
     return (
-      <button>
-        {' '}
-        <i className='fas fa-phone-alt'></i>
-      </button>
+      <a href={`tel:+972${this.props.phone}`} className='call-now'>
+        <button>
+          {' '}
+          <i className='fas fa-phone-alt'></i>
+        </button>
+      </a>
     );
   }
-  //   TODO - Add call functionality
 }
 
 export default CallNowButton;
