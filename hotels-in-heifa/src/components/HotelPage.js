@@ -24,7 +24,7 @@ export class HotelPage extends Component {
         </span>
         <span className='about'>
           <p>
-            קצת עלינו <i class='fas fa-info'></i>
+            קצת עלינו <i className='fas fa-info'></i>
           </p>
           {this.props.about}
         </span>
