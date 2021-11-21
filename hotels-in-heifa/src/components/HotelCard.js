@@ -8,7 +8,7 @@ export class HotelCard extends Component {
   render() {
     return (
       <li>
-        <img alt='hotel-img' src={this.props.img} />
+        <img alt='hotel-img' src={this.props.img} width='80px' height='60px' />
         <span>{this.props.name}</span>
       </li>
     );

@@ -12,7 +12,7 @@ export class HotelsGallery extends Component {
         <ul className='hotels-list'>
           {hotelData.map((hotel) => (
             <Link key={hotel.name} to={'/' + kebabCase(hotel.name)}>
-              {<HotelCard key={hotel.name} name={hotel.name} img={''} />}
+              {<HotelCard key={hotel.name} name={hotel.name} img={hotel.img} />}
             </Link>
           ))}
         </ul>
