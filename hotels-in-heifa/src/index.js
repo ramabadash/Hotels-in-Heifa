@@ -26,6 +26,7 @@ ReactDOM.render(
                 street={hotel['street name']}
                 number={hotel.number}
                 phone={hotel.phone}
+                about={hotel.about}
               />
             }
           />
