@@ -29,4 +29,6 @@
 
 .about {
   font-size: 0.25em;
+  width: 80%;
+  align-self: flex-end;
 }
