@@ -23,30 +23,28 @@ export class App extends Component {
   render() {
     return (
       <ThemeContext.Provider value={this.state.theme}>
-        <Router>
-          <Routes>
-            <Route exect path='/' element={<HotelsGallery toggleTheme={this.state.toggleTheme} />} />
+        <Routes>
+          <Route exect path='/' element={<HotelsGallery toggleTheme={this.state.toggleTheme} />} />
 
-            {hotelData.map((hotel) => (
-              <Route
-                exect
-                key={hotel.name}
-                path={'/' + encodeURIComponent(kebabCase(hotel.name))}
-                element={
-                  <HotelPage
-                    key={hotel.name}
-                    name={hotel.name}
-                    img={hotel.img}
-                    street={hotel['street name']}
-                    number={hotel.number}
-                    phone={hotel.phone}
-                    about={hotel.about}
-                  />
-                }
-              />
-            ))}
-          </Routes>
-        </Router>
+          {hotelData.map((hotel) => (
+            <Route
+              exect
+              key={hotel.name}
+              path={'/' + encodeURIComponent(kebabCase(hotel.name))}
+              element={
+                <HotelPage
+                  key={hotel.name}
+                  name={hotel.name}
+                  img={hotel.img}
+                  street={hotel['street name']}
+                  number={hotel.number}
+                  phone={hotel.phone}
+                  about={hotel.about}
+                />
+              }
+            />
+          ))}
+        </Routes>
       </ThemeContext.Provider>
     );
   }
