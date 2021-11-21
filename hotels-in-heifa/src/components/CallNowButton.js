@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/CallNowButton.css';
 
 export class CallNowButton extends Component {
   constructor(props) {
@@ -6,7 +7,12 @@ export class CallNowButton extends Component {
     this.state = {};
   }
   render() {
-    return <button>Call Now {this.props.phone}</button>;
+    return (
+      <button>
+        {' '}
+        <i className='fas fa-phone-alt'></i>
+      </button>
+    );
   }
   //   TODO - Add call functionality
 }

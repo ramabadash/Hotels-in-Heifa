@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { CallNowButton } from './CallNowButton';
+import '../styles/HotelPage.css';
 
 export class HotelPage extends Component {
   constructor(props) {
@@ -8,13 +9,13 @@ export class HotelPage extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='hotel-page'>
+        <h1>{this.props.name}</h1>
         <img alt='hotel-img' src={this.props.img} />
-        <span>{this.props.name}</span>
         <span>
-          {this.props.street} {this.props.number}
+          <i className='fas fa-map-marker-alt'></i> {this.props.street} {this.props.number}
         </span>
-        <CallNowButton phone={this.props.phone} />
+        <CallNowButton className='call-btn' phone={this.props.phone} />
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/HotelCard.css';
 
 export class HotelCard extends Component {
   constructor(props) {
@@ -7,9 +8,9 @@ export class HotelCard extends Component {
   }
   render() {
     return (
-      <li>
-        <img alt='hotel-img' src={this.props.img} width='80px' height='60px' />
-        <span>{this.props.name}</span>
+      <li className='hotel-card'>
+        <img alt='hotel-img' src={this.props.img} />
+        <p>{this.props.name}</p>
       </li>
     );
   }

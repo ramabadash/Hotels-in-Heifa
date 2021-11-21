@@ -1,0 +1,25 @@
+.hotel-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5em;
+  border-width: 0.2em;
+  width: 10em;
+  height: 10em;
+  margin-bottom: 0.25em;
+  background-image: linear-gradient(315deg, #7297a3 0%, #77a3c5 74%);
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 1.2em;
+  color: brown;
+}
+img {
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+}

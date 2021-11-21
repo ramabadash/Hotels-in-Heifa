@@ -1,0 +1,18 @@
+.hotel-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.hotel-page img {
+  border-radius: 1em;
+  height: 65%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.hotel-page span {
+  margin-top: 2em;
+  font-size: 1.5em;
+}

@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 2.5em;
+  background-color: cornflowerblue;
+}
+.hotels-list {
+  width: 100%;
+  height: 600px;
+  overflow-y: auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Heebo', sans-serif;
+}
