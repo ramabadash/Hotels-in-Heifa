@@ -3,6 +3,7 @@
   left: 20px;
   bottom: 20px;
   text-align: left;
+  display: inline-block;
 }
 
 button {
