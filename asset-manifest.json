@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Hotels-in-Heifa/static/css/main.b6a7b990.chunk.css",
-    "main.js": "/Hotels-in-Heifa/static/js/main.8c7e285d.chunk.js",
-    "main.js.map": "/Hotels-in-Heifa/static/js/main.8c7e285d.chunk.js.map",
+    "main.js": "/Hotels-in-Heifa/static/js/main.a4667a73.chunk.js",
+    "main.js.map": "/Hotels-in-Heifa/static/js/main.a4667a73.chunk.js.map",
     "runtime-main.js": "/Hotels-in-Heifa/static/js/runtime-main.2c94aa6d.js",
     "runtime-main.js.map": "/Hotels-in-Heifa/static/js/runtime-main.2c94aa6d.js.map",
-    "static/js/2.be7c825d.chunk.js": "/Hotels-in-Heifa/static/js/2.be7c825d.chunk.js",
-    "static/js/2.be7c825d.chunk.js.map": "/Hotels-in-Heifa/static/js/2.be7c825d.chunk.js.map",
+    "static/js/2.0453bc1d.chunk.js": "/Hotels-in-Heifa/static/js/2.0453bc1d.chunk.js",
+    "static/js/2.0453bc1d.chunk.js.map": "/Hotels-in-Heifa/static/js/2.0453bc1d.chunk.js.map",
     "index.html": "/Hotels-in-Heifa/index.html",
     "static/css/main.b6a7b990.chunk.css.map": "/Hotels-in-Heifa/static/css/main.b6a7b990.chunk.css.map",
-    "static/js/2.be7c825d.chunk.js.LICENSE.txt": "/Hotels-in-Heifa/static/js/2.be7c825d.chunk.js.LICENSE.txt"
+    "static/js/2.0453bc1d.chunk.js.LICENSE.txt": "/Hotels-in-Heifa/static/js/2.0453bc1d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2c94aa6d.js",
-    "static/js/2.be7c825d.chunk.js",
+    "static/js/2.0453bc1d.chunk.js",
     "static/css/main.b6a7b990.chunk.css",
-    "static/js/main.8c7e285d.chunk.js"
+    "static/js/main.a4667a73.chunk.js"
   ]
 }
