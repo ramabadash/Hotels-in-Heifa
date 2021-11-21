@@ -18,6 +18,7 @@ export class HotelPage extends Component {
       </div>
     );
   }
+  //TODO - return to home page "/"
 }
 
 export default HotelPage;
