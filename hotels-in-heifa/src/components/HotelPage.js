@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { CallNowButton } from './CallNowButton';
 
 export class HotelPage extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ export class HotelPage extends Component {
         <span>
           {this.props.street} {this.props.number}
         </span>
-        <button>Call Now {this.props.phone}</button>
+        <CallNowButton phone={this.props.phone} />
       </div>
     );
   }
