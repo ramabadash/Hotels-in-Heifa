@@ -9,12 +9,13 @@ import ThemeContext, { themes } from '../helpers/theme-context';
 export class App extends Component {
   constructor(props) {
     super(props);
-
+    //Toggle between themes
     this.toggleTheme = () => {
       this.setState((state) => ({
         theme: state.theme === themes.dark ? themes.light : themes.dark,
       }));
     };
+    // State - theme & change theme function
     this.state = {
       theme: themes.light,
       toggleTheme: this.toggleTheme,
@@ -24,8 +25,10 @@ export class App extends Component {
     return (
       <ThemeContext.Provider value={this.state.theme}>
         <Routes>
+          {/* Home page route */}
           <Route exect path='/' element={<HotelsGallery toggleTheme={this.state.toggleTheme} />} />
 
+          {/* Route for every hotel page */}
           {hotelData.map((hotel) => (
             <Route
               exect

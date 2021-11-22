@@ -16,11 +16,13 @@ export class HotelsGallery extends Component {
       <ThemeContext.Consumer>
         {(theme) => (
           <div style={theme}>
+            {/* Switch theme semi-button */}
             <label className='switch'>
               <input type='checkbox' onClick={this.props.toggleTheme} />
               <span className='slider'></span>
             </label>
             <h1 style={theme}> בחר את המלון האהוב עלייך בחיפה</h1>
+            {/* Map hotels from data as link components */}
             <ul className='hotels-list'>
               {hotelData.map((hotel) => (
                 <Link key={hotel.name} to={'/' + kebabCase(hotel.name)}>
